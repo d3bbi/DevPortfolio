@@ -6,6 +6,13 @@
   font-display: swap;
 }
 @font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: normal;
+  src: local('GreatVibes'), url('./assets/fonts/GreatVibes-Regular.ttf') format('woff');
+  font-display: swap;
+}
+@font-face {
   font-family: 'Montserrat';
   src: local('Montserrat'), url('./assets/fonts/Montserrat-Regular.ttf') format('woff');
   font-display: swap;

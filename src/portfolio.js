@@ -8,7 +8,7 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Deborah Rimei",
-  title: "Hi all, I'm Deborah",
+  title: "Deborah Rimei",
   subTitle: emoji("I am a Computer Science student passionate in coding and in solving problems"+
   "I have one year of experience building Web application in Javascript"),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
@@ -178,12 +178,13 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects",
+  subtitle: "SOME PROJECTS I WORKED ON",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      link: "http://saayahealth.com/",
+      description: "blablablabla"
     },
     {
       image: require("./assets/images/nextuLogo.webp"),

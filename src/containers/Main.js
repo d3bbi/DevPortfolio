@@ -6,15 +6,15 @@ import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
-import Achievement from "./achievement/Achievement";
-import Blogs from "./blogs/Blogs";
+// import Achievement from "./achievement/Achievement";
+// import Blogs from "./blogs/Blogs";
 import Contact from "./contact/Contact";
 import Footer from "../components/footer/Footer";
-import Talks from "./talks/Talks";
-import Podcast from "./podcast/Podcast";
+// import Talks from "./talks/Talks";
+// import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import Top from "./topbutton/Top";
-import Twitter from "./twitter-embed/twitter";
+// import Twitter from "./twitter-embed/twitter";
 import { StyleProvider } from "../contexts/StyleContext";
 import "./Main.css";
 import Profile from "./profile/Profile";
@@ -47,7 +47,7 @@ export default class Main extends Component {
           <Skills />
           <StackProgress />
           <Education />
-          <WorkExperience />
+          {/* <WorkExperience /> */}
           <Projects />
           <StartupProject />
           {/* <Achievement /> */}

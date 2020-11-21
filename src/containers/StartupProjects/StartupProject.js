@@ -33,6 +33,7 @@ export default function StartupProject() {
                     onClick={() => openProjectInNewWindow(project.link)}
                   >
                     <img alt="Saad Working" src={project.image}></img>
+                    <p>{project.description}</p>
                   </div>
                 );
               })}

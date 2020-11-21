@@ -37,6 +37,10 @@
   cursor: pointer;
 }
 
+#projects {
+  margin-top: 0;
+}
+
 @media (max-width: 768px) {
   .starup-project-image {
     display: none;
