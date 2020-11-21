@@ -21,11 +21,6 @@ const socialMediaLinks = {
   github: "https://github.com/d3bbi",
   linkedin: "https://www.linkedin.com/deborah-rimei/",
   gmail: "de12bbi@gmail.com",
-  gitlab: "check",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  stackoverflow: "check"
-  // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section

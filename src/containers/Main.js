@@ -29,12 +29,12 @@ export default class Main extends Component {
   }
 
   componentDidMount() {
-    const darkPref = window.matchMedia("(prefers-color-scheme: light)");
-    this.setState({ isDark: darkPref.matches });
+    // const darkPref = window.matchMedia("(prefers-color-scheme: light)");
+    // this.setState({ isDark: darkPref.matches });
   }
-  changeTheme = () => {
-    this.setState({ isDark: !this.state.isDark });
-  };
+    changeTheme = () => {
+      this.setState({ isDark: !this.state.isDark });
+    };
 
   render() {
     return (
