@@ -1,18 +1,44 @@
 .startup-projects-main {
   display: flex;
+  flex-direction: column;
 }
 
-.startup-projects-main > * {
-  flex: 1;
-  margin-bottom: 30px;
+.project-wrapper-text {
+  flex-direction: column;
+  display: flex;
+  margin: 1.8em 0;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-.starup-project-image > img {
+.container-text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 0 4em;
+  text-align: justify;
+}
+
+.project-wrapper-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-wrapper-image img {
+  display: flex;
+  width: 100%;
+}
+
+.subTitle {
+  color: #868e96;
+  padding-bottom: 1rem;
+}
+/* .starup-project-image > img {
   max-width: 100%;
   height: auto;
-}
+} */
 
-.project-card-head {
+/*.project-card-head {
   color: rgb(36, 41, 46);
   font-size: 25px;
   font-weight: 700;
@@ -28,9 +54,7 @@
 .project-card-description {
   color: rgb(88, 96, 105);
 }
-.subTitle {
-  color: #868e96;
-}
+
 
 .saaya-health-div,
 .nextu-div {
@@ -40,7 +64,7 @@
 #projects {
   margin-top: 0;
 }
-
+*/
 @media (max-width: 768px) {
   .starup-project-image {
     display: none;
@@ -48,5 +72,14 @@
   .project-subtitle {
     font-size: 16px;
     text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .project-wrapper-text {
+    display: contents;
   }
 }

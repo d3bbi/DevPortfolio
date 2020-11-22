@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Deborah Rimei",
   title: "Deborah Rimei",
-  subTitle: emoji("I am a Computer Science student passionate in coding and in solving problems"+
-  "I have one year of experience building Web application in Javascript"),
+  subTitle: emoji("I am a Computer Science student passionate in coding and in solving problems" +
+    "I have one year of experience building Web application in Javascript"),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -34,8 +34,8 @@ const skillsSection = {
     emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Make Sure You include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -170,8 +170,8 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
+  githubUserName: "d3bbi", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
@@ -182,13 +182,16 @@ const bigProjects = {
   subtitle: "SOME PROJECTS I WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/",
-      description: "blablablabla"
+      title: "First project",
+      image: require("./assets/images/MyFatherWebsite.png"),
+      link: "#",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
+      title: "Second project",
       image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      link: "#",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
   ]
 };
@@ -288,7 +291,7 @@ const contactInfo = {
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName: "twitter"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails };
