@@ -9,9 +9,9 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Deborah Rimei",
   title: "Deborah Rimei",
-  subTitle: emoji("I am a Computer Science student passionate in coding and in solving problems" +
+  subTitle: emoji("I am a Computer Science student passionate in coding and in solving problems." +
     "I have one year of experience building Web application in Javascript"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1m9AQn_wtUlwTvRcjv8iFGaS35dX-3d0z/view?usp=sharing"
 };
 
 // Your Social Media Link

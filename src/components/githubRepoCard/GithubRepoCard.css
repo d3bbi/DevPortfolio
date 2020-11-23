@@ -78,6 +78,6 @@
 .dark-card-mode p {
   color:white;
 }
-.dark-card-mode:hover {
-  background-color: #55198b !important;
+.dark-card-mode:hover { 
+  background-color: #007bff !important;
 }
