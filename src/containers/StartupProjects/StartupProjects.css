@@ -21,17 +21,31 @@
 
 .project-image {
   /* border: blue solid 1px; */
-  width: 	100%;
+  width: 80%;
 }
 .project-image > img {
   max-width: 100%;
   height: auto;
   padding: 4%;
+  cursor: pointer;
+  border-radius: 5%;
 }
 
-.subTitle {
+img:hover {
+  opacity: 0.6;
+}
+.project-text .subTitle {
   color: #868e96;
   padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.project-text .subTitle:hover {
+  color: #2f4e7c;
+}
+
+.languages {
+  color: #868e96;
 }
 
 @media (max-width: 990px) {

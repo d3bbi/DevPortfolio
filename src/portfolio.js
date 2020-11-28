@@ -9,8 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Deborah Rimei",
   title: "Deborah Rimei",
-  subTitle: emoji("I am a Computer Science student passionate in coding and in solving problems." +
-    "I have one year of experience building Web application in Javascript"),
+  subTitle: emoji("I am a Computer Science student passionate in coding with one year of experience coding with Java and Javascript."),
   resumeLink: "https://drive.google.com/file/d/1m9AQn_wtUlwTvRcjv8iFGaS35dX-3d0z/view?usp=sharing"
 };
 
@@ -26,12 +25,12 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "How I invest my time",
+  subTitle: emoji("WHAT I AM CURRENTLY FOCUSING ON"),
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("👩‍💻 Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
+    emoji("👩‍💻 Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("👩‍💻 Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -46,10 +45,6 @@ const skillsSection = {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    // {
-    //   skillName: "sass",
-    //   fontAwesomeClassname: "fab fa-sass"
-    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -62,10 +57,6 @@ const skillsSection = {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -74,22 +65,6 @@ const skillsSection = {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
-    // {
-    //   skillName: "python",
-    //   fontAwesomeClassname: "fab fa-python"
-    // },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
   ]
 };
 
@@ -101,11 +76,15 @@ const educationInfo = {
     {
       schoolName: "Girffith College Dublin",
       logo: require("./assets/images/griffithLogo.jpg"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      subHeader: "BSc (Hons) Computer Science",
+      duration: "September 2019 - April 2023",
+      desc: "This BSc (Hons) is a 4-year program designed to equip students with a thorough understanding of the key principles of computer science.",
+      PPA: "First year completed with PPA 85%.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Object Oriented Programming - Java: ",
+        "Web Development and Design - HTML/CSS, Javascript: ",
+        "Relational Databases - SQL",
+        "System Analysis and Design",
       ]
     }
   ]
@@ -117,16 +96,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "70%"  //Insert relative proficiency in percentage
+      Stack: "Java",  //Insert stack or technology you have experience in
+      progressPercentage: "75%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "50%"
-    },
-    {
-      Stack: "Programming",
+      Stack: "HTML/CSS",
       progressPercentage: "80%"
+    },
+    {
+      Stack: "Javascript",
+      progressPercentage: "65%"
     }
   ]
 };
@@ -182,17 +161,21 @@ const bigProjects = {
   subtitle: "SOME PROJECTS I WORKED ON",
   projects: [
     {
-      title: "First project",
-      image: require("./assets/images/MyFatherWebsite.png"),
-      link: "#",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      title: "Shopping List",
+      image: require("./assets/images/Grocery.png"),
+      link: "https://d3bbi.github.io/ShoppingList/",
+      description: "A simple shopping List with basic functionality as enter a new item, strikethrough items on the list done and delete items.",
+      languages: "JAVASCRIPT • HTML • CSS",
     },
     {
-      title: "Second project",
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "#",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    }
+      title: "My Father, My Hero - First website",
+      image: require("./assets/images/MyFatherWebsite.png"),
+      link: "https://d3bbi.github.io/MyHeroMyFather/",
+      description: "This one of my first websites build during my first year of college. The task of the assignment was to create a page for a person that we consider as a Hero."+
+      "I built the page using only HTML and CSS",
+      languages: "HTML • CSS",
+    },
+
   ]
 };
 

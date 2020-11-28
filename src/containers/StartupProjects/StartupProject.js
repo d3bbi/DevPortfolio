@@ -29,17 +29,16 @@ export default function StartupProject() {
             return (
 
               <Fade bottom duration={1000} distance="20 px">
-                  <div className="project-text"
-                  // onClick={() => openProjectInNewWindow(project.link)}
-                  >
-                    <h3 className="subTitle">{project.title}</h3>
-                    <div>
-                      <p>{project.description}</p>
-                    </div>
+                <div className="project-text">
+                  <h3 className="subTitle" onClick={() => openProjectInNewWindow(project.link)}>{project.title}</h3>
+                  <div>
+                    <p>{project.description}</p>
+                    <p class="languages">{project.languages}</p>
                   </div>
-                  <div className="project-image">
-                    <img alt="Project picture" src={project.image}></img>
-                  </div>
+                </div>
+                <div className="project-image">
+                  <img alt="Project picture" src={project.image}></img>
+                </div>
               </Fade>
 
             );
@@ -47,6 +46,6 @@ export default function StartupProject() {
 
         </div>
       </div>
-   </div>
+    </div>
   );
 }

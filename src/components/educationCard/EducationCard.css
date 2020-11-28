@@ -80,7 +80,7 @@
 @media (max-width: 1380px) {
   .education-card {
     flex-direction: column;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
   }
   .education-card-right {
     max-width: 90%;
