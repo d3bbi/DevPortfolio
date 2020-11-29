@@ -31,7 +31,7 @@
   border-radius: 5%;
 }
 
-img:hover {
+.project-image img:hover {
   opacity: 0.6;
 }
 .project-text .subTitle {
