@@ -170,7 +170,7 @@ const bigProjects = {
     {
       title: "Background Generator",
       image: require("./assets/images/bGenerator.png"),
-      link: "https://d3bbi.github.io/background-generator/",
+      link: "https://d3bbi.github.io/Background-generator/",
       description: "In case you are not sure on which combination of color to use for your background this page can come in handy.",
       languages: "JAVASCRIPT • HTML • CSS",
     },
