@@ -27,16 +27,12 @@
   .education-card-container {
     padding-top: 0px;
   }
-  .education-card-left{
-    margin: auto;
-  }
   .education-heading {
     font-size: 40px;
   }
   .education-text-subtitle {
     font-size: 18px;
   }
-
 }
 
 @media (max-width: 768px) {
