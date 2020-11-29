@@ -59,9 +59,8 @@
     margin-bottom: 0;
   }
   .project-image > img {
-    padding: 0 4rem;
     margin: auto;
-    max-width: 80%;
+    display: block;
   }
   .project-subtitle {
     font-size: 16px;

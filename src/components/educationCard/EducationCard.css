@@ -93,7 +93,7 @@
     padding-bottom: 1rem;
   }
   .education-text-desc {
-    text-align: justify;
+    text-align: left;
   }
 
 }
@@ -101,7 +101,6 @@
 @media (max-width: 768px) {
   .education-card {
     flex-direction: column;
-    text-align: center;
   }
   .education-card-right {
     max-width: 100%;
@@ -114,8 +113,5 @@
     margin-bottom: 1rem;
     margin-right: 0;
   }
-  .education-text-bullets > ul {
-    max-width: 80%;
-    margin: auto;
-  }
+
 }
