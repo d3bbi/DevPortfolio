@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./StartupProjects.css";
 import { bigProjects } from "../../portfolio";
 import { Fade } from "react-reveal";
+import Tilt from 'react-tilt'
 import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {
@@ -36,9 +37,11 @@ export default function StartupProject() {
                     <p class="languages">{project.languages}</p>
                   </div>
                 </div>
-                <div className="project-image">
-                  <img onClick={() => openProjectInNewWindow(project.link)} alt="Project picture" src={project.image}></img>
-                </div>
+                <Tilt className="Tilt" options={{ max: 10, scale: 1 }} >
+                  <div className="project-image">
+                    <img onClick={() => openProjectInNewWindow(project.link)} alt="Project picture" src={project.image}></img>
+                  </div>
+                </Tilt>
               </Fade>
 
             );

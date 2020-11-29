@@ -28,9 +28,9 @@ const skillsSection = {
   title: "How I invest my time",
   subTitle: emoji("WHAT I AM CURRENTLY FOCUSING ON"),
   skills: [
-    emoji("👩‍💻 Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("👩‍💻 Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("👩‍💻 Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("👩‍💻 Develop user-friendly and responsive Front end / User Interfaces for the web and mobile"),
+    emoji("👩‍💻 Practising data structure and algorthms with Java"),
+    emoji("👩‍💻 Integration of third party services such as Firebase")
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
