@@ -40,10 +40,7 @@
 .education-roundedimg {
   object-fit: cover;
   margin-right: 2rem;
-  /* width: 6rem; */
   height: 6rem;
-  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3); */
-  border-radius: 5%;
 }
 
 .education-card-right {
@@ -78,13 +75,6 @@
 /* Media Query */
 
 @media (max-width: 1380px) {
-  .education-card {
-    flex-direction: column;
-    padding-bottom: 10px; 
-  }
-  .education-card-right {
-    max-width: 90%;
-  }
   .education-card-border {
     width: 90%;
   }
@@ -98,16 +88,16 @@
   .education-text-duration {
     font-size: 16px;
   }
-  .education-roundedimg {
-    /* width: 4rem;
-    height: 4rem; */
-    margin-bottom: 0.5rem;
-    margin-right: 0px;
+
+  .education-text-desc {
+    text-align: justify;
   }
+
 }
 
 @media (max-width: 768px) {
   .education-card {
+    flex-direction: column;
     text-align: center;
   }
   .education-card-right {
@@ -118,8 +108,6 @@
   }
   .education-roundedimg {
     margin-top: 10px;
-    /* width: 4rem;
-    height: 4rem; */
     margin-bottom: 1rem;
     margin-right: 0;
   }
