@@ -168,7 +168,14 @@ const bigProjects = {
       languages: "JAVASCRIPT • HTML • CSS",
     },
     {
-      title: "My Father, My Hero - First website",
+      title: "Background Generator",
+      image: require("./assets/images/bGenerator.png"),
+      link: "https://d3bbi.github.io/background-generator/",
+      description: "In case you are not sure on which combination of color to use for your background this page can come in handy.",
+      languages: "JAVASCRIPT • HTML • CSS",
+    },
+    {
+      title: "My Father, My Hero",
       image: require("./assets/images/MyFatherWebsite.png"),
       link: "https://d3bbi.github.io/MyHeroMyFather/",
       description: "This one of my first websites build during my first year of college. The task of the assignment was to create a page for a person that we consider as a Hero."+

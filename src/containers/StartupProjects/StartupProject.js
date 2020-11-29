@@ -37,7 +37,7 @@ export default function StartupProject() {
                   </div>
                 </div>
                 <div className="project-image">
-                  <img alt="Project picture" src={project.image}></img>
+                  <img onClick={() => openProjectInNewWindow(project.link)} alt="Project picture" src={project.image}></img>
                 </div>
               </Fade>
 
