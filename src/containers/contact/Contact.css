@@ -51,7 +51,7 @@
 }
 
 /* Media Query */
-@media (max-width: 1380px), (max-width: 768px) {
+@media (max-width: 1380px) {
   .contact-title {
     font-size: 56px;
     font-weight: 400;
@@ -79,7 +79,14 @@
     font-size: 20px;
   }
 
-  .contact-image-div {
-    display: none;
+}
+
+@media (max-width: 768px) {
+  .contact-div-main{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .contact-image-div > img {
+    width: 70%;
   }
 }
