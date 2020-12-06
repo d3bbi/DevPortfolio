@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a58e8ee2319707d981fec6de6d2dcb9f",
+    "revision": "56f9bc4c4b8f7aee44e295f20c85c441",
     "url": "/index.html"
   },
   {
-    "revision": "0c568d2bd3ce21f759a6",
+    "revision": "8caed8fbd3e3ff78a02b",
     "url": "/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "0bb90b5063daab42ee72",
+    "revision": "4a8d8913489f9b8efcda",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "7c60100304ecb02c5e96",
+    "revision": "ff71e5fb82f8ba6f40bb",
     "url": "/static/css/4.17e110fc.chunk.css"
   },
   {
-    "revision": "7a3672d4b5391fc83462",
+    "revision": "602d63342e5da1026fe3",
     "url": "/static/css/main.6ab0c719.chunk.css"
   },
   {
-    "revision": "0c568d2bd3ce21f759a6",
-    "url": "/static/js/2.ad50c1b4.chunk.js"
+    "revision": "8caed8fbd3e3ff78a02b",
+    "url": "/static/js/2.250c9866.chunk.js"
   },
   {
-    "revision": "0bb90b5063daab42ee72",
-    "url": "/static/js/3.4dca4149.chunk.js"
+    "revision": "4a8d8913489f9b8efcda",
+    "url": "/static/js/3.392a52c2.chunk.js"
   },
   {
-    "revision": "7c60100304ecb02c5e96",
-    "url": "/static/js/4.7d619aeb.chunk.js"
+    "revision": "ff71e5fb82f8ba6f40bb",
+    "url": "/static/js/4.6b0b9320.chunk.js"
   },
   {
-    "revision": "7a3672d4b5391fc83462",
-    "url": "/static/js/main.d90835ef.chunk.js"
+    "revision": "602d63342e5da1026fe3",
+    "url": "/static/js/main.79483808.chunk.js"
   },
   {
-    "revision": "be79b0cf86baed986d8e",
-    "url": "/static/js/runtime-main.cd99596d.js"
+    "revision": "315447e81f7e91131dfe",
+    "url": "/static/js/runtime-main.3df283ed.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -150,6 +150,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4b2938b9f5ea2f1ddbd45dccaff628bc",
     "url": "/static/media/quoraLogo.4b2938b9.png"
+  },
+  {
+    "revision": "e87843789c2562585a9a486beda63ac9",
+    "url": "/static/media/recipesApp.e8784378.png"
   },
   {
     "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
