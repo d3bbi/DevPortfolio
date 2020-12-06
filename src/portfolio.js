@@ -164,22 +164,23 @@ const bigProjects = {
       title: "Shopping List",
       image: require("./assets/images/Grocery.png"),
       link: "https://d3bbi.github.io/ShoppingList/",
-      description: "A simple shopping List with basic functionality as enter a new item, strikethrough items on the list done and delete items.",
+      description: "A simple shopping List with basic functionality as enter a new item,strikethrough completed items and delete items.",
       languages: "JAVASCRIPT • HTML • CSS",
     },
     {
       title: "Background Generator",
       image: require("./assets/images/bGenerator.png"),
       link: "https://d3bbi.github.io/Background-generator/",
-      description: "In case you are not sure on which combination of color to use for your background this page can come in handy.",
+      description: "This page can come in handy if you need to choose the best colours combinations for the background.",
       languages: "JAVASCRIPT • HTML • CSS",
     },
     {
       title: "My Father, My Hero",
       image: require("./assets/images/MyFatherWebsite.png"),
       link: "https://d3bbi.github.io/MyHeroMyFather/",
-      description: "This one of my first websites build during my first year of college. The task of the assignment was to create a page for a person that we consider as a Hero."+
-      "I built the page using only HTML and CSS",
+      description: "This is the first website I developed during my first year in college."+
+      " The site is entirely dedicated to my father, one of the most important figures in my life."+
+      " The paragraphs throughout the websites are lorem ipsum for privacy porpuses.",
       languages: "HTML • CSS",
     },
 
