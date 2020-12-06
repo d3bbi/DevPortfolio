@@ -1,4 +1,4 @@
-﻿
+﻿  
 /* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
@@ -156,6 +156,14 @@ const bigProjects = {
   title: "My Projects",
   subtitle: "SOME PROJECTS I WORKED ON",
   projects: [
+    {
+      title: "Recipes App",
+      image: require("./assets/images/recipesApp.png"),
+      link: "https://d3bbi.github.io/recipes-app/",
+      description: "You don't know what to cook for dinner? Look up recipes with this app. You just need to enter an ingredient in the search bar."+
+      "Edemam API used to develope this project.",
+      languages: "JAVASCRIPT • HTML • CSS • REACT",
+    },
     {
       title: "Shopping List",
       image: require("./assets/images/Grocery.png"),
