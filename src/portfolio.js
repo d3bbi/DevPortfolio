@@ -11,7 +11,7 @@ const greeting = {
   title: "Deborah Rimei",
   subTitle: emoji("I am a second year BScH Computer Science student with hands-on experience building dynamic websites and project using object-oriented languages such as Java."+
   " On my spare time I love to improve my coding skills and learn new technologies."),
-  resumeLink: "https://drive.google.com/file/d/1m9AQn_wtUlwTvRcjv8iFGaS35dX-3d0z/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1CtZPkxD1Og05EmpWp4XIg_jhlbPR9G-m/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -31,13 +31,17 @@ const skillsSection = {
   skills: [
     emoji("👩‍💻 Develop user-friendly and responsive Front end / User Interfaces for the web and mobile"),
     emoji("👩‍💻 Practicing data structure and algorthms with Java"),
-    emoji("👩‍💻 Learning to build android apps with Kotlin and Firebase")
+    // emoji("👩‍💻 Learning to build android apps with Kotlin and Firebase")
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
   https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -66,6 +70,10 @@ const skillsSection = {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
+    {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
+    },
   ]
 };
 
@@ -82,10 +90,12 @@ const educationInfo = {
       desc: "This BSc (Hons) is a 4-year program designed to equip students with a thorough understanding of the key principles of computer science.",
       PPA: "First year completed with PPA 85%.",
       descBullets: [
-        "Object Oriented Programming - Java",
-        "Web Development and Design - HTML/CSS, Javascript",
+        "Object Oriented programming – Java",
+        "Web Design - HTML, CSS, JavaScript",
+        "Software Development - Java, GitLab",
         "Relational Databases - SQL",
-        "System Analysis and Design",
+        "Computer hardware",
+        "System Analysis and Design",        
       ]
     }
   ]
@@ -98,23 +108,23 @@ const techStack = {
   experience: [
     {
       Stack: "Java",  //Insert stack or technology you have experience in
-      progressPercentage: "75%"  //Insert relative proficiency in percentage
+      progressPercentage: "65%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "HTML/CSS",
-      progressPercentage: "80%"
+      progressPercentage: "65%"
     },
     {
       Stack: "Javascript",
-      progressPercentage: "65%"
-    },
-    {
-      Stack: "ReactJS",
       progressPercentage: "60%"
     },
     {
+      Stack: "ReactJS",
+      progressPercentage: "50%"
+    },
+    {
       Stack: "MySQL",
-      progressPercentage: "65%"
+      progressPercentage: "55%"
     }
 
   ]
