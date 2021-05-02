@@ -8,10 +8,11 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Deborah Rimei",
-  title: "Deborah Rimei",
-  subTitle: emoji("I am a second year BScH Computer Science student with hands-on experience building dynamic websites and project using object-oriented languages such as Java."+
-  " On my spare time I love to improve my coding skills and learn new technologies."),
-  resumeLink: "https://drive.google.com/file/d/1CtZPkxD1Og05EmpWp4XIg_jhlbPR9G-m/view?usp=sharing"
+  title: emoji("Ciao World 🌍"),
+  subTitle: emoji("I'm a Computer Science student aspiring to make an impact as a software developer. "+
+  "I am currently working full-time at UPS, but I always find the time to code on my projects. My next step is to find a challanging environment that will value my skills and "+
+  " facilitate my technical and professional growth."),
+  resumeLink: "https://drive.google.com/file/d/1XMRv-yrN62xVMhj_kKjJ2zpuZYg4QJ4z/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -19,7 +20,7 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/d3bbi",
-  linkedin: "https://www.linkedin.com/deborah-rimei/",
+  linkedin: "https://www.linkedin.com/in/deborah-rimei/",
   gmail: "de12bbi@gmail.com",
 };
 
@@ -29,9 +30,9 @@ const skillsSection = {
   title: "How I invest my time",
   subTitle: emoji("WHAT I AM CURRENTLY FOCUSING ON"),
   skills: [
-    emoji("👩‍💻 Develop user-friendly and responsive Front end / User Interfaces for the web and mobile"),
-    emoji("👩‍💻 Practicing data structure and algorthms with Java"),
-    // emoji("👩‍💻 Learning to build android apps with Kotlin and Firebase")
+    emoji("👩‍💻 Completing a weather chatbot that retrieves weather forecast from the OpenWeather API. The chatbot is implemented using JQuery, Ajax and PHP"),
+    emoji("👩‍💻 Building a dynamic website for a childcare institute. Using PHP to manage the different user level access."),
+    emoji("👩‍💻 Learning SalesForce and collecting new badges on TrailHead. Currently having 4100 points and 15 badges on the platform."),
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -91,9 +92,9 @@ const educationInfo = {
       PPA: "First year completed with PPA 85%.",
       descBullets: [
         "Object Oriented programming – Java",
-        "Web Design - HTML, CSS, JavaScript",
+        "Web Design - HTML, CSS, JavaScript, PHP",
         "Software Development - Java, GitLab",
-        "Relational Databases - SQL",
+        "Relational Databases - MySQL",
         "Computer hardware",
         "System Analysis and Design",        
       ]
@@ -116,11 +117,11 @@ const techStack = {
     },
     {
       Stack: "Javascript",
-      progressPercentage: "60%"
+      progressPercentage: "50%"
     },
     {
       Stack: "ReactJS",
-      progressPercentage: "50%"
+      progressPercentage: "30%"
     },
     {
       Stack: "MySQL",
@@ -139,7 +140,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      // companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -212,11 +213,11 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      // image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        // { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
+        // { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
+        // { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
       ]
     }
   ]
